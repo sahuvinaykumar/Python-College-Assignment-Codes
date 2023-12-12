@@ -1,0 +1,15 @@
+def print_dictionary_items(dictionary):
+  """
+  This function prints all the items in a dictionary.
+
+  Args:
+      dictionary: The dictionary to be printed.
+  """
+  for key, value in dictionary.items():
+    print(f"Key: {key}, Value: {value}")
+
+# Sample dictionary
+dictionary = {"name": "John", "age": 30, "city": "New York"}
+
+# Print all items
+print_dictionary_items(dictionary)
